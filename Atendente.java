@@ -3,5 +3,7 @@ import java.util.List;
 public class Atendente {
 
     private String nomeAtendente;
-    private List<aluno>
+    private String login;
+    private String senhaAtendente;
+    private List<Aluno> DadosAlunos;
 }
