@@ -16,8 +16,9 @@ public class Principal {
 //     System.out.println("\n\nCoisas que o Aluno pode fazer\n" +
 //             "1-Ver Lista De Alunos: Ano e Curso");
 
+
         Curso novoCurso = new Curso("EISC", 2);
-        System.out.println("Curso Criado: " + novoCurso.getNomeCurso() + "__" + novoCurso.getAnoCurso() + " Ano");
+        System.out.println("\nCurso Criado: " + novoCurso.getNomeCurso() + "__" + novoCurso.getAnoCurso() + " Ano");
 
     }
 }
